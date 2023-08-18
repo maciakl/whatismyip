@@ -2,7 +2,7 @@
 
 Quick and dirty tool to find your routable IP address.
 
-Queries [ipify](ipify.org) service and prints the IP address to the terminal.
+Queries [ipify](https://ipify.org) service and prints the IP address to the terminal.
 
 Written in Rust.
 
