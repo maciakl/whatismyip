@@ -35,7 +35,8 @@ fn show_ip() {
         },
 
         Err(_) => {
-            println!("network error");
+            eprintln!("network error");
+            std::process::exit(1);
         }
     }
 }
@@ -49,7 +50,8 @@ fn show_local() {
     match resp {
 
         Ok(ip) => {
-            println!("{}", ip);
+            eprintln!("{}", ip);
+            std::process::exit(1);
         },
 
         Err(_) => {
