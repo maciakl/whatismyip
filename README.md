@@ -6,4 +6,9 @@ Queries [ipify](https://ipify.org) service and prints the IP address to the term
 
 Written in Rust.
 
-Linux version requires OpenSSL to be installed. Windows version should work as is.
+    Usage: whatismyip.exe [OPTIONS]
+
+    Options:
+    -l, --local    Get local ip address instead of the routable one
+    -h, --help     Print help
+    -V, --version  Print version
