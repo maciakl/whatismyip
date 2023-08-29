@@ -50,12 +50,12 @@ fn show_local() {
     match resp {
 
         Ok(ip) => {
-            eprintln!("{}", ip);
-            std::process::exit(1);
+            println!("{}", ip);
         },
 
         Err(_) => {
-            println!("failed to get local ip");
+            eprintln!("failed to get local ip");
+            std::process::exit(1);
         }
 
     }
