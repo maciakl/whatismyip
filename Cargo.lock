@@ -1169,7 +1169,7 @@ dependencies = [
 
 [[package]]
 name = "whatismyip"
-version = "0.2.2"
+version = "0.2.3"
 dependencies = [
  "clap",
  "local-ip-address",

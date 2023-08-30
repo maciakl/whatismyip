@@ -25,7 +25,7 @@ fn main() {
 fn show_ip() {
 
     // Query the remote service to get the IP
-    let resp = reqwest::blocking::get("https://api.ipify.org");
+    let resp = reqwest::blocking::get("https://api4.my-ip.io/ip");
 
     match resp {
 
