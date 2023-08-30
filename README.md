@@ -14,3 +14,13 @@ Written in Rust.
     -V, --version  Print version
 
 If you have multiple active network interfaces this tool will give information only about the default/preferred (ie the one your OS attempts to use first).
+
+## Installing
+
+Manually: 
+
+- Download the zip and extract the executable
+
+Using Scoop:
+
+    scoop install https://dmp.maciak.org/whatismyip.json

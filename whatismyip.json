@@ -1,4 +1,3 @@
-// Scoop Manifest
 {
     "version": "0.2.3",
     "description": "A simple command line tool that detects your routable and/or local ip address",
