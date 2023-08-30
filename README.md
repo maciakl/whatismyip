@@ -23,4 +23,5 @@ Manually:
 
 Using Scoop:
 
-    scoop install https://dmp.maciak.org/whatismyip.json
+    scoop bucket add maciak https://github.com/maciakl/bucket
+    scoop install maciak/whatismyip
