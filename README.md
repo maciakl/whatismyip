@@ -17,11 +17,21 @@ If you have multiple active network interfaces this tool will give information o
 
 ## Installing
 
-Manually: 
+### Manually
 
-- Download the zip and extract the executable
+- Download the compressed archive and extract the executable somewhere into your path
 
-Using Scoop:
+### Using Scoop:
+
+First add my bucket:
 
     scoop bucket add maciak https://github.com/maciakl/bucket
+
+If you already have the bucked added:
+    
+    scoop update
     scoop install maciak/whatismyip
+
+If you do not want to add my bucket:
+
+    scoop install https://dmp.maciak.org/whatismyip.json
