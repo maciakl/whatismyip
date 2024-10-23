@@ -4,7 +4,7 @@ Quick and dirty tool to find your routable IP address.
 
 Queries [ipify](https://ipify.org) service and prints the IP address to the terminal.
 
-Written in Rust.
+## Usage
 
     Usage: whatismyip.exe [OPTIONS]
 
@@ -17,21 +17,17 @@ If you have multiple active network interfaces this tool will give information o
 
 ## Installing
 
-### Manually
+Install via `cargo`:
 
-- Download the compressed archive and extract the executable somewhere into your path
+     cargo install https://github.com/maciakl/whatismyip/ 
+ 
+ On Windows, this tool is also distributed via `scoop` (see [scoop.sh](https://scoop.sh)).
 
-### Using Scoop:
-
-First add my bucket:
+ First, you need to add my bucket:
 
     scoop bucket add maciak https://github.com/maciakl/bucket
-
-If you already have the bucked added:
-    
     scoop update
-    scoop install maciak/whatismyip
 
-If you do not want to add my bucket:
-
-    scoop install https://dmp.maciak.org/whatismyip.json
+ Next simply run:
+ 
+    scoop install whatismyip
